@@ -7,11 +7,11 @@ numRealExe2 = 10.50
 print(f"Exercicio 02 - {numRealExe2}")
 
 # 3- Peça ao usuário  para digitar 3 valores inteiros e imprima a soma deles.
-# num1Exe3 = int(input('Digite um número inteiro '))
-# num2Exe3 = int(input('Digite outro número inteiro '))
-# num3Exe3 = int(input('Digite mais um número inteiro '))
-# resultadoExe3 = num1Exe3 + num2Exe3 + num3Exe3
-# print(f'Exercicio 03 - {resultadoExe3}')
+num1Exe3 = int(input('Digite um número inteiro '))
+num2Exe3 = int(input('Digite outro número inteiro '))
+num3Exe3 = int(input('Digite mais um número inteiro '))
+resultadoExe3 = num1Exe3 + num2Exe3 + num3Exe3
+print(f'Exercicio 03 - {resultadoExe3}')
 
 # 4- Leia um número real e imprima o quadrado desse número.
 numRealExe4 = 8.50
@@ -219,3 +219,56 @@ totalExe40 = diasExe40 * 30
 descontoExe40 = 8/100 * totalExe40
 resultadoExe40 = totalExe40 - descontoExe40
 print(f'Exercicio 40 - {resultadoExe40}')
+
+# 41- Leia um valor de hora de trabalho e numero de hora por mês, imprima o valor a ser pago
+#  ao funcionario, adicionando 10% sobre o valor
+horasExe41 = 8.00
+horasMesExe41 = horasExe41 * 20
+salarioExe41 = horasMesExe41 * 5.50
+porcentagemExe41 = 10/100 * salarioExe41
+resultadoExe41 = salarioExe41 + porcentagemExe41
+print(f'Exercicio 41 - {resultadoExe41}')
+
+# 42- Leia um salario tirando 2% de imposto
+salarioExe42 = 4183.47
+porcentagemExe42 = 2/100 * salarioExe42
+resultadoExe42 = salarioExe42 - porcentagemExe42
+print(f'Exercicio 42 - {resultadoExe42}')
+
+# 43- Escreva um programa que ajuda os vendedores. A partir de um valor total lido, mostre:
+# a- Total a pagar com 10% de desconto
+# b- Valor de cada parcela, no parcelamento de 3x sem juros
+# c- Comissão do vendedor, caso a venda ser a vista ( 5% sobre o valor com desconto)
+# d- Comissão do vendedor no caso da venda parcelada ( 5% no valor total ) 
+
+valorExe43 = int(input('Digite o valor da compra: '))
+desconto10PExe43 = valorExe43 - (10/100 * valorExe43)
+parcelaExe43 = valorExe43 / 3
+comissaoVistaExe43 = 5/100 * desconto10PExe43
+comissaoParceladoExe43 = 5/100 * valorExe43
+print(f'A vista com 10% de desconto: R$ {desconto10PExe43}')
+print(f'Parcelado em 3x sem juros: R$ {parcelaExe43}')
+print(f'Comissão do vendedor a vista: R$ {comissaoVistaExe43}')
+print(f'Comissão do vendedor Parcelado: R$ {comissaoParceladoExe43}')
+
+# 44- Receba a altura de uma escada e altura que o usuario deseja alcançar 
+# Calcule e mostr quantos degraus o usuario deverá subir para atingir seu objetivo
+degrauUserExe44 = int(input('Digita seu degrau: '))
+degrauObjetivoExe44 = int(input('Digite degrau de objetivo: '))
+resultadoExe44 = degrauObjetivoExe44 - degrauUserExe44
+print(f'Exercicio 44 - {resultadoExe44}')
+
+# 45- Faça um programa para converter uma letra maiúscula em minuscula
+letraMaiusculaExe45 = "A"
+converterMinusculaExe45 = letraMaiusculaExe45.lower()
+print(f'Exercicio 45 - {converterMinusculaExe45}')
+
+# 46- Faça um programa que leia um numero de 3 digitos e gere
+# outro formado pelos 3 digitos invertidos.
+numeroLidoExe46 = 478
+print(f'Exercicio 46 - {numeroLidoExe46[::-1]}')
+
+
+
+
+
